@@ -1053,10 +1053,7 @@ namespace AthodBeTrackApi.Controllers
                     message.message = "This reset link has expired. Request a new reset link to get a new password.";
                     return Ok(message);
                 }
-
-              
             }
-
         }
 
         [AllowAnonymous]
